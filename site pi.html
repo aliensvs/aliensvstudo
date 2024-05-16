@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Acadêmico - Imagens Ilustrativas</title>
+    <style>
+        body {
+            font-family: Polix Mono;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #ff000000, #000000);
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: rgb(0, 0, 0);
+            font-family: Arial, sans-serif; /* Define a fonte Arial */
+            font-weight: normal; /* Garante que o peso da fonte seja normal */
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+        .image {
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image img {
+            width: 100%;
+            height: 300px; /* Defina a altura desejada aqui */
+            object-fit: cover; /* Para manter a proporção da imagem */
+        }
+        /* Alternativa para trocar a fonte */
+        .font-selector {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .font-selector select {
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        .regras{
+            font-family: Polix Mono;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Aliens vs Tudo</h1>
+    <h2>Design de Modelos dos Personagens</h2>
+    <div class="image-grid">
+        <div class="image">
+            <img src="ft0.jpeg" alt="Imagem 1">
+        </div>
+        <div class="image">
+            <img src="ft1.jpeg" alt="Imagem 2">
+        </div>
+        <div class="image">
+            <img src="ft2.jpeg" alt="Imagem 3">
+        </div>
+        <div class="image">
+            <img src="ft3.jpeg" alt="Imagem 4">
+        </div>
+        <div class="image">
+            <img src="ft4.jpeg" alt="Imagem 5">
+        </div>
+        <div class="image">
+            <img src="ft5.jpeg" alt="Imagem 6">
+        </div>
+        <div class="image">
+            <img src="ft6.jpeg" alt="Imagem 7">
+        </div>
+        <div class="image">
+            <img src="ft7.jpeg" alt="Imagem 8">
+        </div>
+   
+        <div class="image">
+            <img src="ft8.jpeg" alt="Imagem 9">
+        </div>
+   
+   
+   
+   
+    </div>
+    
+    <h2 class="regras">As Regras do Jogo</h2> 
+    <p style="font-family: Arial, sans-serif;">Em Aliens vs Tudo, os jogadores são confrontados com uma variedade de inimigos alienígenas que tentam percorrer um caminho predeterminado até seu objetivo final que é o centro de comando. Para impedir seu avanço, os jogadores devem construir e posicionar estrategicamente uma variedade de torres ao longo do caminho, cada uma com habilidades únicas de ataque e suporte. Ao contrário de outros jogos de tower defense, onde as torres são estáticas e intocáveis, em Aliens vs Tudo os inimigos têm a capacidade de destruir as torres colocadas em seu caminho, exigindo uma abordagem mais dinâmica e defensiva por parte dos jogadores. Isso adiciona um elemento de urgência e tomada de decisão rápida, já que os jogadores devem equilibrar entre investir em torres ofensivas para deter os inimigos e em torres de suporte para proteger suas defesas.<br><br>Para invocar torres, é necessário energia, que pode ser adquirida ou por geração automática do mapa cada 20 segundos, ou utilizando torres que as produzem periodicamente. As torres – que, na verdade são personagens estacionários – são:<br><br>• Konoichi Raptoriana: com um ataque a curta distância;<br>• Caçador billybolinha: que tem um ataque padrão;<br>• Slime bobo da corte: que é focado em defesa;<br>• Cthulhu bardo: que produz energia periodicamente;<br>• Cavaleiro enmalucado: que tem ataque mais lento, porém causa mais dano;<br>• Goblin: que causa ataque elemental.</p>
+   
+</div>
+
+<script>
+    function changeFont(fontFamily) {
+        document.body.style.fontFamily = fontFamily;
+    }
+</script>
+
+</body>
+</html>
